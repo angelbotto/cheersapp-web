@@ -1,0 +1,13 @@
+---
+es:
+  layout:
+    title: Cheers
+    navegation:
+      langs:
+        title: Idioma
+        es: Español
+        en: English
+  sections:
+    message:
+      title: Choca tu smartphone y ten cerca a los que conoces de cerca
+      subtitle: Imagina que con solo chocar tu smartphone podrás agregar a todas las redes sociales a tus amigos.

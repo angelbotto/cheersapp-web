@@ -1,0 +1,13 @@
+---
+en:
+  layout:
+    title: Cheers
+    navegation:
+      langs:
+        title: Language
+        es: Español
+        en: English
+  sections:
+    message:
+      title: Bump your smartphone and be close to those who know close
+      subtitle: Imagine that just hit your smartphone you can add all the social networks to your friends.

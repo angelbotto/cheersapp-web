@@ -1,0 +1,121 @@
+// General
+html,body {
+  height:100%;
+}
+
+body {
+  background: {
+    color: $white;
+  };
+  font: {
+    family: $regular, sans-serif;
+    size:16px;
+  }
+}
+
+a {  text-decoration: none; }
+
+/*  General
+    ---------------------------------------------------------- */
+
+// Grids
+.container {
+  @include container($max-width);
+}
+
+.wrapper {
+  height:100%;
+  position:relative;
+}
+
+@for $index from 1 through $grid-columns {
+  .cheers_#{$index} { @include span($index of $grid-columns); }
+}
+
+/*  Grids
+    ---------------------------------------------------------- */
+
+// Header
+#header {
+  padding:30px 0;
+  width: 100%;
+  z-index: 2;
+  .brand {
+
+    #logo {
+      height:64px;
+      width:64px;
+      display:inline-block;
+      position:relative;
+
+      &:hover {
+        -webkit-animation-name: rubberBand;
+        animation-name: rubberBand;
+      }
+
+      img {
+        width: 100%;
+        height:100%;
+      }
+
+    }
+  }
+
+  .navegation {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    > li {
+      display:inline-block;
+      position:relative;
+      padding:20px 0 0 0;
+      text-transform: uppercase;
+      margin:0 10px;
+      > * {
+        color: $brand;
+
+        &:hover {
+          color: lighten($brand, 20%);
+        }
+      }
+    }
+
+    .languague {
+      span {
+        display:block;
+        margin-bottom:10px;
+      }
+      &:hover {
+        .dropdown {
+          display:block;
+          @extend .flipInX;
+        }
+      }
+    }
+    .dropdown {
+      display:none;
+      position:absolute;
+      list-style: none;
+      text-align: left;
+      margin:0;
+      padding:0;
+      background:$brand;
+
+      @include border-radius(3px);
+      li {
+        display:block;
+        a {
+          text-transform: capitalize;
+          color:$white;
+          display:block;
+          padding:5px 10px;
+
+          &:hover { color: lighten($brand, 30%); }
+        }
+      }
+    }
+  }
+}
+/*  Header
+    ---------------------------------------------------------- */

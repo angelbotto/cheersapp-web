@@ -1,0 +1,24 @@
+// Colors
+$brand: #431765;
+$white: white;
+
+// container
+$max-width: 80%;
+$grid-columns: 12;
+
+$susy: (
+        columns: 12,
+        gutters: 1/4,
+        output: isolate,
+        math: fluid,
+        gutter-position: split,
+        global-box-sizing: border-box
+);
+
+// Fonts
+$regular: 'open_sansregular';
+$italic: 'open_sansitalic';
+$light: 'open_sanslight';
+$semibold: 'open_sanssemibold';
+$semibold_italic: 'open_sanssemibold_italic';
+$light_italic: 'open_sanslight_italic';

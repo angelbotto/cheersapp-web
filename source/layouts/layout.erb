@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title><%= current_page.data.title || 'Cheers' %></title>
+    <meta name="description" content="<%= current_page.data.description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= stylesheet_link_tag "all" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <header id='header'>
+      <div class="container">
+        <div class="brand cheers_2">
+          <a id="logo" href="/" class="animated">
+            <img src="/images/logo.png" alt="Cheers logo"/>
+          </a>
+        </div>
+        <ul class="navegation cheers_10">
+          <li class="languague">
+            <span><%= t('layout.navegation.langs.title') %></span>
+            <ul class="dropdown animated">
+              <li><a href="/"><%= t('layout.navegation.langs.en') %></a></li>
+              <li><a href="/es"><%= t('layout.navegation.langs.es') %></a></li>
+            </ul>
+          </li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <li><a href=""><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+    </header>
+    <div class='wrapper' role='main'>
+      <%= yield %>
+    </div>
+
+    <footer id="footer">
+      <div class="container"></div>
+    </footer>
+
+    <%= javascript_include_tag  'all' %>
+  </body>
+</html>
