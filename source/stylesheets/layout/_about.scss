@@ -1,5 +1,5 @@
 #about {
-
+  padding-bottom:35px;
   .container {
     width:740px;
     text-align: center;
@@ -11,10 +11,10 @@
       font-family: $regular;
     }
     .content {
-      line-height: 2em;
+      line-height: 1.8em;
       font:{
         family: $regular;
-        size:18px;
+        size:16px;
       }
     }
   }

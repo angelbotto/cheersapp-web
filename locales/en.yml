@@ -32,4 +32,6 @@ en:
       form:
         input: Enter your email address
         button: Suscribe
+      errors:
+        notValid: Invalid Email
       thanks: Thanks and welcome

@@ -81,16 +81,18 @@ a {  text-decoration: none; }
     }
 
     .languague {
+      cursor:pointer;
       span {
         display:block;
         margin-bottom:10px;
       }
+      /*
       &:hover {
         .dropdown {
           display:block;
           @extend .flipInX;
         }
-      }
+      }*/
     }
     .dropdown {
       display:none;
@@ -99,6 +101,7 @@ a {  text-decoration: none; }
       text-align: left;
       margin:0;
       padding:0;
+      z-index:999;
       background:$brand;
 
       @include border-radius(3px);
