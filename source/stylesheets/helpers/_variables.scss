@@ -1,9 +1,13 @@
 // Colors
 $brand: #431765;
 $white: white;
+$semiblack: #343434;
+$text-grey: #999999;
+$grey: lighten($text-grey, 25%);;
+
 
 // container
-$max-width: 80%;
+$max-width: 960px;
 $grid-columns: 12;
 
 $susy: (

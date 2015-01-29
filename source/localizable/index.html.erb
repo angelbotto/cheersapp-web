@@ -8,5 +8,67 @@ description: algo que ahcer
       <h1 class="title"><%= t('sections.message.title') %></h1>
       <h3 class="subtitle"><%= t('sections.message.subtitle') %></h3>
     </div>
+    <img src="/images/shake-left.png" class="animated left" alt="shake image"/><img src="/images/shake-right.png" class="animated right"  alt="shake image"/>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="about-content">
+      <h3 class="title"><%= t('sections.about.title') %></h3>
+      <p class="content"><%= t('sections.about.content') %></p>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div>
+    <div class="container join">
+      <div class="image">
+        <img src="/images/welcome.png" alt="<%= t('sections.how.join.title') %>"/>
+      </div>
+      <div class="text">
+        <h4 class="title"><%= t('sections.how.join.title') %></h4>
+        <p class="content"><%= t('sections.how.join.content') %></p>
+      </div>
+    </div>
+
+    <div class="container networks">
+      <div class="text">
+        <h4 class="title"><%= t('sections.how.networks.title') %></h4>
+        <p class="content"><%= t('sections.how.networks.content') %></p>
+      </div>
+      <div class="image">
+        <img src="/images/add.png" alt="<%= t('sections.how.networks.title') %>"/>
+      </div>
+    </div>
+    <div class="container connect">
+      <div class="image">
+        <img src="/images/done.png" alt="<%= t('sections.how.connect.title') %>"/>
+      </div>
+      <div class="text">
+        <h4 class="title"><%= t('sections.how.connect.title') %></h4>
+        <p class="content"><%= t('sections.how.connect.content') %></p>
+      </div>
+    </div>
+    <div class="container keep">
+      <div class="text">
+        <h4 class="title"><%= t('sections.how.keep.title') %></h4>
+        <p class="content"><%= t('sections.how.keep.content') %></p>
+      </div>
+      <div class="image">
+        <img src="/images/pocket.png" alt="<%= t('sections.how.keep.title') %>"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="invite">
+  <div class="container">
+    <h4><%= t('sections.invite.title') %></h4>
+    <div class="input-group">
+      <input type="email" placeholder="<%= t('sections.invite.form.input') %>"/>
+      <input type="submit" value="<%= t('sections.invite.form.button') %>"/>
+    </div>
   </div>
 </section>

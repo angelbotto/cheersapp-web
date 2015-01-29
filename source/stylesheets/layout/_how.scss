@@ -1,0 +1,57 @@
+#how {
+  padding:20px 0;
+
+  .container {
+    padding:30px;
+    width:640px;
+    position:relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top:1px;
+      width:100%;
+      height:1px;
+      background: -moz-linear-gradient(left, rgba($grey,0) 0%, rgba($grey,0) 15%, rgba($grey,1) 50%, rgba($grey,0) 85%, rgba($grey,0) 100%);
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba($grey,0)), color-stop(15%,rgba($grey,0)), color-stop(50%,rgba($grey,1)), color-stop(85%,rgba($grey,0)), color-stop(100%,rgba($grey,0)));
+      background: -webkit-linear-gradient(left, rgba($grey,0) 0%,rgba($grey,0) 15%,rgba($grey,1) 50%,rgba($grey,0) 85%,rgba($grey,0) 100%);
+      background: -o-linear-gradient(left, rgba($grey,0) 0%,rgba($grey,0) 15%,rgba($grey,1) 50%,rgba($grey,0) 85%,rgba($grey,0) 100%);
+      background: -ms-linear-gradient(left, rgba($grey,0) 0%,rgba($grey,0) 15%,rgba($grey,1) 50%,rgba($grey,0) 85%,rgba($grey,0) 100%);
+      background: linear-gradient(to right, rgba($grey,0) 0%,rgba($grey,0) 15%,rgba($grey,1) 50%,rgba($grey,0) 85%,rgba($grey,0) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a0a0a0', endColorstr='#00a0a0a0',GradientType=1 );
+    }
+  }
+
+  .text, .image {
+    display:inline-block;
+    margin:20px;
+    vertical-align: middle;
+  }
+  .text {
+    padding:15px 0;
+
+    .title, .content {
+      margin:0 auto;
+      max-width:350px;
+    }
+
+    .title {
+      font-size:22px;
+      margin-bottom:15px;
+      color:$semiblack;
+      font-family: $regular;
+    }
+
+    .content {
+      line-height: 2em;
+    }
+  }
+  .image {
+    padding: 15px 0;
+
+    img {
+      height:200px;
+      max-width:100%;
+    }
+  }
+}

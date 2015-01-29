@@ -1,0 +1,23 @@
+#about {
+  position: relative;
+  top:-80px;
+  .container {
+    width:740px;
+    text-align: center;
+
+    .title {
+      color:$semiblack;
+      font: {
+        family: $regular;
+        size:24px;
+      }
+    }
+    .content {
+      line-height: 2em;
+      font:{
+        family: $regular;
+        size:18px;
+      }
+    }
+  }
+}

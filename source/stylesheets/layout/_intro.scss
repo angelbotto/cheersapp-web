@@ -1,23 +1,48 @@
 #intro {
   min-height:100%;
-  padding:120px 0;
+  padding:20px 0 0 0;
   @include box-sizing(border-box);
   background: {
-    image: url('/images/cheers6ai.png');
-    size: 120%;
+    //image: url('/images/cheers6ai.png');
+    size: 100%;
     position: center;
     repeat:no-repeat;
   }
 
+  img {
+    display:inline-block;
+    max-width: 50%;
+    position:relative;
+    top:-60px;
+    z-index:2;
+
+    &.left {
+      @extend .bounceInLeft;
+    }
+
+    &.right {
+      @extend .bounceInRight;
+    }
+  }
+
   .message {
+    position: relative;
+    z-index:3;
     margin:0 auto;
-    width:50%;
+    width:440px;
+    text-align: center;
 
     .title {
-      color:$brand;
+      color:$semiblack;
       font: {
-        family: $semibold;
+        family: $regular;
+        size:24px;
       }
+    }
+
+    .subtitle {
+      color:$text-grey;
+      line-height: 2em;
     }
   }
 }
