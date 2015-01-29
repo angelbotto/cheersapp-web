@@ -30,6 +30,6 @@ es:
     invite:
       title: ¿Quieres estar al tanto de las ultimas novedades de Cheers y tener acceso a la versión beta? Registra tu correo aquí y síguenos en las distintas redes sociales.
       form:
-        input: Email
+        input: Ingresa tu direccion de correo electronico.
         button: Suscribete
         thanks: Gracias y bienvenido

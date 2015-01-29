@@ -25,7 +25,6 @@ a {  text-decoration: none; }
 }
 
 .wrapper {
-  height:100%;
   position:relative;
 }
 
@@ -119,3 +118,24 @@ a {  text-decoration: none; }
 }
 /*  Header
     ---------------------------------------------------------- */
+
+
+#footer {
+  padding:40px 0;
+  text-align: center;
+
+  ul {
+    margin:0;
+    padding:0;
+
+    li {
+      list-style: none;
+      display: inline-block;
+
+      a {
+        padding:5px 15px;
+        color:$text-grey;
+      }
+    }
+  }
+}

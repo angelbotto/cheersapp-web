@@ -1,16 +1,14 @@
 #about {
-  position: relative;
-  top:-80px;
+
   .container {
     width:740px;
     text-align: center;
 
     .title {
+      font-size:22px;
+      margin-bottom:15px;
       color:$semiblack;
-      font: {
-        family: $regular;
-        size:24px;
-      }
+      font-family: $regular;
     }
     .content {
       line-height: 2em;

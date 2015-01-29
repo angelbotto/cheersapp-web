@@ -30,6 +30,6 @@ en:
     invite:
       title: To get access to a beta version, updates, and news about Cheers, register your email here and follow us on different social networking sites.
       form:
-        input: Email
+        input: Enter your email address
         button: Suscribe
       thanks: Thanks and welcome
