@@ -13,9 +13,13 @@
             }
         });
 
-        $(".languague").click(function(){
-            $(".languague .dropdown").show().addClass('flipInX');
-        });
+        $('.languague').hover(
+            function(){
+                $(this).children('.dropdown').show();
+            },
+            function () {
+                $(this).children('.dropdown').hide();
+            });
 
         button.click(function(){
             var email = input.val();
