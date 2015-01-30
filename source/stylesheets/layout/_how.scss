@@ -55,3 +55,36 @@
     }
   }
 }
+
+@media only screen
+and (min-device-width : $min)
+and (max-device-width : $max) {
+  #how {
+    padding-top:40px;
+    .container {
+      width: 80%;
+
+
+      .text {
+        margin-top:40px;
+        display: table-footer-group;
+
+        .title {
+          margin-top:30px;
+        }
+        .content {
+          margin-bottom:30px;
+        }
+      }
+      .image {
+        display: table-header-group;
+        text-align: center;
+
+        img {
+          width: 70%;
+          height: auto !important;
+        }
+      }
+    }
+  }
+}

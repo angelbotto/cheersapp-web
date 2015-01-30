@@ -5,7 +5,9 @@
         var postUrl = '//makecheers.us5.list-manage.com/subscribe/post?u=789b1037d0cbbb5eeabfecd29&id=05d5037421';
         var url = postUrl.replace('/post?', '/post-json?').concat('&c=?');
 
-        input.keypress(function(event){
+        var inputEV = 'oninput' in window ? 'input' : 'keyup';
+
+        input.on(inputEV, function(event){
             if(validateEmail(input.val())){
                 valid(input, button);
             }else{

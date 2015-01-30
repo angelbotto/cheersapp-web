@@ -19,3 +19,14 @@
     }
   }
 }
+
+@media only screen
+and (min-device-width : $min)
+and (max-device-width : $max) {
+  #about {
+    padding-top:40px;
+    .container {
+      width: 80%;
+    }
+  }
+}

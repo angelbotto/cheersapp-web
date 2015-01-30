@@ -122,6 +122,9 @@ a {  text-decoration: none; }
 /*  Header
     ---------------------------------------------------------- */
 
+section {
+  @include box-sizing(border-box);
+}
 
 #footer {
   padding:40px 0;
@@ -136,9 +139,40 @@ a {  text-decoration: none; }
       display: inline-block;
 
       a {
+        display:none; //OCULTE EL FOOTER
         padding:5px 15px;
         color:$text-grey;
       }
     }
   }
 }
+
+//iPhone 6 in portrait & landscape
+@media only screen
+and (min-device-width : $min)
+and (max-device-width : $max) {
+
+  body {
+    font: {
+      size:16px;
+    }
+    line-height: 1.5em;
+  }
+
+  #header {
+    .brand {
+      #logo {
+        margin:0 10px;
+      }
+
+      .navegation {
+
+      }
+    }
+  }
+
+  section {
+    text-align: center;
+  }
+}
+

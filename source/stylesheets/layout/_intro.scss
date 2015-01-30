@@ -1,7 +1,7 @@
 #intro {
-  min-height:100%;
+
   padding:20px 0 0 0;
-  @include box-sizing(border-box);
+
   background: {
     //image: url('/images/cheers6ai.png');
     size: 100%;
@@ -43,6 +43,33 @@
     .subtitle {
       color:$text-grey;
       line-height: 2em;
+    }
+  }
+}
+
+@media only screen
+and (min-device-width : $min)
+and (max-device-width : $max) {
+  #intro {
+    min-height: 100%;
+    padding-top:20px;
+    .message {
+      width:80%;
+
+      .title {
+        font: {
+          size:20px;
+        }
+      }
+
+      .subtitle {
+        line-height: 1.5em;
+      }
+
+    }
+
+    img  {
+      top:0px;
     }
   }
 }
