@@ -9,26 +9,23 @@ es:
         en: English
   sections:
     message:
-      title: Agrega personas a tus redes sociales con solo agitar tu celular.
-      subtitle: Esta será la forma mas facil y original de permanecer en contacto.
+      title: Cheers!! es la forma más fácil y divertida para conectar personas.
+      subtitle: Agrega personas a tus Redes Sociales, agitando celulares al mismo tiempo.
     about:
-      title: Acerca de Cheers
-      content: Cheers es la nueva forma de estar en contacto con aquellas personas que conoces en eventos sociales, en fiestas, en reuniones de negocio o en otros lugares. Con Cheers, puedes agregar a tus amigos, colegas y conocidos en diferentes redes sociales al acercar y agitar sus celulares ¡así de simple!
+      title: Acerca de Cheers!!
+      content: Cheers!! te permite conectar en tiempo real con personas que conoces en eventos sociales, fiestas, reuniones de negocio o en cualquier lugar. Puedes agregar amigos a tus múltiples Redes Sociales sólo agitando los teléfonos al mismo tiempo. ¡Toma segundos conectarte!
     how:
       join:
-        title: ¡Únete a Cheers!
-        content: Registrarse es fácil, puedes hacerlo usando Facebook o  Google+.
+        title: ¡Inicia Cheers!!
+        content: Regístrate usando Facebook o Google+.
       networks:
-        title: Vincula tus redes sociales
-        content: Agrega todas tus redes sociales en las que quieras que te encuentren tus amigos, colegas y conocidos.
+        title: Conecta tus redes sociales. 
+        content: Agrega tus Redes Sociales para conectar personas.
       connect:
-        title: Comparte con tus amigos
-        content: Acerca tu celular al de tus amigos, agítalo y conéctate en las redes sociales.
-      keep:
-        title: Mantén cerca a tus amigos
-        content: Cheers te permite estar en contacto con las personas que has conocido en la vida real.
+        title: Haz Cheers!! con tus amigos
+        content: Toca, Agita y Conecta personas a tus Redes Sociales.
     invite:
-      title: ¿Quieres estar al tanto de las ultimas novedades de Cheers y tener acceso a la versión beta? Registra tu correo aquí y síguenos en las distintas redes sociales.
+      title: Ten acceso a nuestra versión Beta, noticias y novedades sobre Cheers!! Registra tu correo y síguenos en nuestras Redes Sociales.
       form:
         input: Ingresa tu direccion de correo electronico.
         button: Suscribete
