@@ -75,6 +75,27 @@
         }
       }
     }
+
+    .social {
+      text-align: center;
+      margin-top:30px;
+      div {
+        overflow-x: hidden;
+        text-align: center;
+        width: 60px;
+        position:relative;
+        display:inline-block;
+        margin:0 5px;
+
+        &.facebook {
+          margin-bottom:-16px;
+        }
+
+        &.google {
+          width:100px;
+        }
+      }
+    }
   }
 }
 

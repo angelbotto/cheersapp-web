@@ -1,6 +1,8 @@
 // General
 html,body {
   height:100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -129,7 +131,7 @@ section {
 #footer {
   padding:40px 0;
   text-align: center;
-
+  
   ul {
     margin:0;
     padding:0;
