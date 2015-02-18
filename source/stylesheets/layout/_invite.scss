@@ -88,11 +88,15 @@
         margin:0 5px;
 
         &.facebook {
-          margin-bottom:-16px;
+          width:80px;
         }
 
         &.google {
-          width:100px;
+          width:40px;
+        }
+
+        &.twitter {
+          width:60px; 
         }
       }
     }

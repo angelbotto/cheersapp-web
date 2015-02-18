@@ -7,6 +7,10 @@ es:
         title: Idioma
         es: Español
         en: English
+      download:
+        android:
+          text: Cheers para Android
+          subtext: Disponible en Google Play
   sections:
     message:
       title: Cheers!! es la forma más fácil y divertida para conectar personas.

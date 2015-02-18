@@ -7,6 +7,10 @@ en:
         title: Language
         es: Español
         en: English
+      download:
+        android:
+          text: Cheers for Android
+          subtext: Available in Google Play
   sections:
     message:
       title:  Cheers!! is the easiest and coolest way to connect people.
@@ -22,7 +26,7 @@ en:
         title: Connect your Social Networks.
         content: Add your Social Networks to connect with people.
       connect:
-        title: Cheers!! With your Friends
+        title: Cheers!! with your Friends
         content: Tap, Shake and Connect people to your Social Networks.
     invite:
       title: Get access to our Beta version, news and updates about Cheers!! Register your E-mail and follow us on our Social Networks.

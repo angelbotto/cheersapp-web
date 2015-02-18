@@ -178,3 +178,60 @@ and (max-device-width : $max) {
   }
 }
 
+
+.android-download {
+  background:#6d21a2;
+  display: none;
+  margin:0;
+  padding:1px 0;
+  color:#fff;
+  z-index: 999;
+  
+  .call-to-download {
+    display:inline-block;
+    width:60%;
+    text-align: left;
+    padding:0 10px;
+    box-sizing: border-box;
+    p {
+      font-size:12px;
+    }
+    strong {
+      font-size: 14px;
+      font-weight: bold;
+      display: block
+    }
+  }
+
+  .download-button {
+    display: inline-block;
+    width:40%;
+    text-align: right;
+    padding:0 10px;
+    box-sizing: border-box;
+
+    a {
+      display: block;
+      width:100%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  
+}
+
+
+.shadow{
+  pointer-events:none;
+  position: fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  @include degrade(rgba(white, 0), rgba(white, 1));
+  padding:100px 0 0;
+  color:$brand;
+}
+
+
