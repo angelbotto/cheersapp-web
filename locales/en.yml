@@ -17,7 +17,7 @@ en:
     how:
       join:
         title: Join Cheers!
-        content: Signing up is easy, you can do it using Facebook or Google+.
+        content: Sign up is easy! You can do it using Facebook or Google+.
       networks:
         title: Connect your social networks.
         content: Add all your social networking sites you want to share with your friends, colleagues and acquaintances.
@@ -31,7 +31,8 @@ en:
       title: To get access to a beta version, updates, and news about Cheers, register your email here and follow us on different social networking sites.
       form:
         input: Enter your email address
-        button: Suscribe
+        button: Subscribe
       errors:
         notValid: Invalid Email
       thanks: Thanks and welcome
+      social: Sign up with

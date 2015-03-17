@@ -64,6 +64,11 @@ and (max-device-width : $max) {
     .container {
       width: 80%;
 
+      &:before {
+        max-width:250px !important;
+        left:20%;
+      }
+
 
       .text {
         margin-top:40px;
