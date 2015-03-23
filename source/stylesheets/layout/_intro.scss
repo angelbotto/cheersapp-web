@@ -9,12 +9,13 @@
     repeat:no-repeat;
   }
 
-  img {
+  .hand {
     display:inline-block;
     max-width: 50%;
     position:relative;
-    top:-60px;
+    top:-20px;
     z-index:2;
+    pointer-events:none;
 
     &.left {
       @extend .bounceInLeft;
@@ -24,6 +25,8 @@
       @extend .bounceInRight;
     }
   }
+
+
 
   .message {
     position: relative;
@@ -53,6 +56,7 @@ and (max-device-width : $max) {
   #intro {
     min-height: 100%;
     padding-top:20px;
+
     .message {
       width:80%;
 

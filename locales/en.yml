@@ -7,32 +7,37 @@ en:
         title: Language
         es: Español
         en: English
+        pt: Português
+      download:
+        android:
+          text: Download Cheers
+          subtext: Available on Google Play
   sections:
     message:
-      title: Add people to any social network just by putting your cellphones together and shaking them
-      subtitle: This is going to be, by far, the simplest and coolest way to stay in touch.
+      title: Cheers!! is the simplest and fastest way to connect people.
+      subtitle: Shake 'n' Share all of your favourite social networks in a matter of seconds!
     about:
-      title: About Cheers
-      content: Cheers is the new way to keep in touch with people you meet in social events, parties, business meetings, or anywhere. With Cheers, you can add your friends, colleagues, and acquaintances to your social networking sites just by putting your cellphones together and shaking them. It just takes seconds to share who you are!
+      title: About Cheers!!
+      content: Met someone you want to stay in touch with at a party, business meeting or any other social gathering? Just shake your phones together and share your contact information instantly and easily! No more writing down names, numbers or finding others social networks.
+    phylosophy:
+      title: Cheers!! Philosophy
+      content: We believe in a world connected through real life social interactions. Cheers!! let’s you connect with real people in real time. It’s time to go play outside!
     how:
       join:
-        title: Join Cheers!
-        content: Sign up is easy! You can do it using Facebook or Google+.
+        title: Start Cheers!!
+        content: Sign up using Facebook or Google+
       networks:
-        title: Connect your social networks.
-        content: Add all your social networking sites you want to share with your friends, colleagues and acquaintances.
+        title: Add social networks.
+        content: Add your social networks to connect with people.
       connect:
-        title: Share with your friends.
-        content: Put your cellphones together, shake, and connect on different social networking sites.
-      keep:
-        title: Keep your friends close.
-        content: Cheers allows you to keep in touch with people you have met in real life.
+        title: Cheers!! with your Friends
+        content: Tap and shake to share your contact information and social networks.
     invite:
-      title: To get access to a beta version, updates, and news about Cheers, register your email here and follow us on different social networking sites.
+      title: Get access to our beta version, news and updates about Cheers!! Register your email and follow us on our social networks.
       form:
-        input: Enter your email address
-        button: Subscribe
+        input: Enter your Email address
+        button: Subscribe!
       errors:
-        notValid: Invalid Email
-      thanks: Thanks and welcome
+        notValid: Invalid Email.
+      thanks: Thank you and welcome to Cheers!!
       social: Sign up with

@@ -1,0 +1,43 @@
+---
+pt:
+  layout:
+    title: Cheers
+    navegation:
+      langs:
+        title: Language
+        es: Español
+        en: English
+        pt: Português
+      download:
+        android:
+          text: Download Cheers
+          subtext: Disponível na Google Play
+  sections:
+    message:
+      title: Cheers!! É a forma mais rápida de conectar pessoas.
+      subtitle: Agite e partilha todas as suas redes favoritas numa questão de segundos!
+    about:
+      title: Acerca de Cheers!!
+      content: Conheceu alguém numa festa, reunião de negócios ou outro tipo encontro social e quer manter o contato? Simplesmente agitando o seu telemóvel ao mesmo tempo e partilhe todos os seus contatos de maneira fácil e rápida. Acabou o escrever números e nomes em papéis ou procurar em redes sociais!
+    phylosophy:
+      title: Cheers!! Filosofia
+      content: Nós acreditamos num mundo conectado através de interações na vida real. Cheers!! Permite-te conectar com pessoas reais em tempo real. Está na hora de sair de casa!
+    how:
+      join:
+        title: Comece a fazer Cheers!!
+        content: Registe-se usando Facebook ou Google+
+      networks:
+        title: Conecte suas redes sociais.
+        content: Adicione as suas redes sociais e conecte-se com pessoas.
+      connect:
+        title: Cheers!! com os seus amigos.
+        content: Prima e abane para partilhar os seus contactos e as suas redes sociais.
+    invite:
+      title: Tenha acesso à nossa versão beta, noticias e atualizações de Cheers!! Registe o seu e-mail e siga-nos nas suas redes sociais.
+      form:
+        input: Introduza o seu E-mail
+        button: Subscreva!
+      errors:
+        notValid: E-mail Inválido.
+      thanks: Obrigado e Bem-vindo a Cheers!!
+      social: Registe-se com

@@ -7,7 +7,17 @@ title: Cheers
       <h1 class="title"><%= t('sections.message.title') %></h1>
       <h3 class="subtitle"><%= t('sections.message.subtitle') %></h3>
     </div>
-    <img src="/images/shake-left.png" class="animated left" alt="shake image"/><img src="/images/shake-right.png" class="animated right"  alt="shake image"/>
+    <img src="/images/shake-left.png" class="animated left hand" alt="shake image"/><img src="/images/shake-right.png" class="animated right hand"  alt="shake image"/>
+    <div class="download">
+      <a href="https://30k.co/cheersandroid" class="dandroid">
+        <img alt="Get it on Google Play"
+             src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+      </a>
+      <a href="#" class="dios">
+        <img alt="Download on the App Store"
+             src="/images/soon.png" />
+      </a>
+    </div>
   </div>
 </section>
 
@@ -16,6 +26,9 @@ title: Cheers
     <div class="about-content">
       <h3 class="title"><%= t('sections.about.title') %></h3>
       <p class="content"><%= t('sections.about.content') %></p>
+
+      <h3 class="title"><%= t('sections.phylosophy.title') %></h3>
+      <p class="content"><%= t('sections.phylosophy.content') %></p>
     </div>
   </div>
 </section>
@@ -50,16 +63,6 @@ title: Cheers
         <p class="content"><%= t('sections.how.connect.content') %></p>
       </div>
     </div>
-    <div class="container keep">
-      <div class="text">
-        <h4 class="title"><%= t('sections.how.keep.title') %></h4>
-        <p class="content"><%= t('sections.how.keep.content') %></p>
-      </div>
-      <div class="image">
-        <img src="/images/pocket.png" alt="<%= t('sections.how.keep.title') %>"/>
-      </div>
-    </div>
-
     <div class="container"></div>
   </div>
 </section>
@@ -76,15 +79,32 @@ title: Cheers
     <div class="welcome animated">
       <h4><%= t('sections.invite.thanks') %></h4>
     </div>
-    <div class="follow">
-      <a class="twitter" href="//twitter.com/saycheersapp">
-        <%= t('sections.invite.social') %> <i class="fa fa-twitter"></i>
+
+    <div class="social">
+      <div class="facebook">
+        <div class="fb-share-button" data-layout="button"></div>
+      </div>
+
+      <div class="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="saycheersapp" data-count="none">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+
+      <div class="google">
+        <div class="g-plusone" data-size="medium" data-annotation="none"></div>
+      </div>
+    </div>
+
+    <br/>
+    <br/>
+    <div class="download">
+      <a href="https://30k.co/1x" class="dandroid">
+        <img alt="Get it on Google Play"
+             src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
       </a>
-      <a class="facebook" href="//www.facebook.com/cheersapp.io">
-        <%= t('sections.invite.social') %> <i class="fa fa-facebook"></i>
-      </a>
-      <a class="google" href="//plus.google.com/115598299369399984467">
-        <%= t('sections.invite.social') %> <i class="fa fa-google-plus"></i>
+      <a href="#" class="dios">
+        <img alt="Download on the App Store"
+             src="/images/soon.png" />
       </a>
     </div>
   </div>

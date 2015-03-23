@@ -1,29 +1,8 @@
 #invite {
   padding:15px 0 80px 0;
   .container {
-    width:540px;
+    width:440px;
     text-align: center;
-
-    .follow {
-      margin-top:40px;
-      a {
-        padding:15px 20px;
-        @include border-radius(4px);
-
-        margin:10px 5px;
-        color:$white;
-        font-size:14px;
-
-        &.facebook {  background:$facebook; }
-        &.twitter { background: $twitter; }
-        &.google { background: $google; }
-
-        i {
-          margin:0 5px;
-          font-size:18px;
-        }
-      }
-    }
     h4 {
       color:$text-grey;
       line-height: 2em;
@@ -96,6 +75,31 @@
         }
       }
     }
+
+    .social {
+      text-align: center;
+      margin-top:30px;
+      div {
+        overflow-x: hidden;
+        text-align: center;
+        width: 60px;
+        position:relative;
+        display:inline-block;
+        margin:0 5px;
+
+        &.facebook {
+          width:80px;
+        }
+
+        &.google {
+          width:40px;
+        }
+
+        &.twitter {
+          width:60px; 
+        }
+      }
+    }
   }
 }
 
@@ -106,14 +110,6 @@ and (max-device-width : $max) {
     .container {
       width:80%;
 
-      .follow {
-        a {
-          display:block;
-          width:100%;
-          @include box-sizing(border-box);
-          margin:10px 0;
-        }
-      }
       .input-group {
 
         .email, .button {

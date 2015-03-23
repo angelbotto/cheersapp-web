@@ -7,29 +7,37 @@ es:
         title: Idioma
         es: Español
         en: English
+        pt: Português
+      download:
+        android:
+          text: Descarga Cheers
+          subtext: Disponible en Google Play
   sections:
     message:
-      title: Agrega personas a tus redes sociales con solo agitar tu celular.
-      subtitle: Esta será la forma mas facil y original de permanecer en contacto.
+      title: Cheers!! es la forma más fácil y rápida para conectar personas.
+      subtitle: ¡Agita y comparte tus redes sociales favoritas en cuestión de segundos!
     about:
-      title: Acerca de Cheers
-      content: Cheers es la nueva forma de estar en contacto con aquellas personas que conoces en eventos sociales, en fiestas, en reuniones de negocio o en otros lugares. Con Cheers, puedes agregar a tus amigos, colegas y conocidos en diferentes redes sociales al acercar y agitar sus celulares ¡así de simple!
+      title: Acerca de Cheers!!
+      content: ¿Conocíste a una persona con quien quieres seguir en contacto en una fiesta, reunión de negocios o cualquier otro evento social? ¡Sólo agita los celulares y comparte tu información de contacto fácilmente! No tienes que escribir nombres, números o realizar búsquedas en redes sociales.
+    phylosophy:
+      title: Cheers!! Filosofía
+      content: Creemos en un mundo que conecta a través de interacciones sociales en la vida real. Cheers!! te permite conectar con personas en tiempo real. ¡Es hora de salir de casa!
     how:
       join:
-        title: ¡Únete a Cheers!
-        content: Registrarse es fácil, puedes hacerlo usando Facebook o  Google+.
+        title: Inicia Cheers!!
+        content: Regístrate usando Facebook o Google+.
       networks:
-        title: Vincula tus redes sociales
-        content: Agrega todas tus redes sociales en las que quieras que te encuentren tus amigos, colegas y conocidos.
+        title: Conecta tus redes sociales. 
+        content: Agrega tus redes sociales para conectar personas.
       connect:
-        title: Comparte con tus amigos
-        content: Acerca tu celular al de tus amigos, agítalo y conéctate en las redes sociales.
-      keep:
-        title: Mantén cerca a tus amigos
-        content: Cheers te permite estar en contacto con las personas que has conocido en la vida real.
+        title: Haz Cheers!! con tus amigos
+        content: Toca y agita para compartir tu información de contacto y redes sociales.
     invite:
-      title: ¿Quieres estar al tanto de las ultimas novedades de Cheers y tener acceso a la versión beta? Registra tu correo aquí y síguenos en las distintas redes sociales.
+      title: Obtén acceso a nuestra versión beta, noticias y novedades relacionadas con Cheers!! Registra tu correo y síguenos en nuestras Redes Sociales.
       form:
         input: Ingresa tu direccion de correo electronico.
-        button: Suscribete
-        thanks: Gracias y bienvenido
+        button: ¡Suscríbete!
+      errors: 
+          notValid: Correo invalido
+      thanks: Gracias y bienvenido a Cheers!!
+      social: Conéctate con

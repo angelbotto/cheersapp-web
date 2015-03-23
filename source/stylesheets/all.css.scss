@@ -5,6 +5,7 @@
 @import 'compass';
 @import 'compass/support';
 @import 'vendors/fontawesome/font-awesome';
+@import 'helpers/helpers';
 @import 'helpers/fonts';
 @import 'helpers/animated';
 @import 'helpers/variables';
@@ -13,3 +14,4 @@
 @import 'layout/about';
 @import 'layout/how';
 @import 'layout/invite';
+@import 'layout/page';

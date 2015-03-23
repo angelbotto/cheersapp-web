@@ -1,6 +1,8 @@
 // General
 html,body {
   height:100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -34,6 +36,7 @@ a {  text-decoration: none; }
 
 /*  Grids
     ---------------------------------------------------------- */
+
 
 // Header
 #header {
@@ -129,7 +132,7 @@ section {
 #footer {
   padding:40px 0;
   text-align: center;
-
+  
   ul {
     margin:0;
     padding:0;
@@ -174,5 +177,97 @@ and (max-device-width : $max) {
   section {
     text-align: center;
   }
+
+  .download {
+    position: relative;
+    top: -10px;
+    text-align: center;
+    z-index: 99;
+
+    a {
+      margin: 0px 7px;
+      display: block;
+      width: 60%;
+      margin: 0 auto;
+
+      img {
+        max-width: 80%
+      }
+    }
+  }
+
 }
 
+
+.android-download {
+  background:#6d21a2;
+  display: none;
+  margin:0;
+  padding:1px 0;
+  color:#fff;
+  z-index: 999;
+  
+  .call-to-download {
+    display:inline-block;
+    width:60%;
+    text-align: left;
+    padding:0 10px;
+    box-sizing: border-box;
+    p {
+      font-size:12px;
+    }
+    strong {
+      font-size: 14px;
+      font-weight: bold;
+      display: block
+    }
+  }
+
+  .download-button {
+    display: inline-block;
+    width:40%;
+    text-align: right;
+    padding:0 10px;
+    box-sizing: border-box;
+
+    a {
+      display: block;
+      width:100%;
+
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  
+}
+
+
+.shadow{
+  pointer-events:none;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  @include degrade(rgba(white, 0), rgba(white, 1));
+  padding:100px 0 0;
+  color:$brand;
+}
+
+
+
+.download {
+  position: relative;
+  top: 0;
+  text-align: center;
+  z-index: 99;
+  margin: 0 auto;
+
+  a {
+    margin: 0 auto !important;
+  }
+
+  .dios {
+    display:none;
+  }
+}

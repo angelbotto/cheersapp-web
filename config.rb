@@ -53,7 +53,7 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :i18n,
-         langs: [:en, :es],
+         langs: [:en, :es, :pt],
          mount_at_root: :en
 
 # Build-specific configuration

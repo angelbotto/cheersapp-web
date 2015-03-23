@@ -1,0 +1,59 @@
+#page {
+  margin-top: 40px;
+
+  h1 {
+    color: $brand;
+    margin: 0;
+  }
+
+  h2 {
+    color: $brand;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 12px;
+    color: lighten($brand, 20%);
+  }
+
+  p {
+    text-align: justify;
+    line-height: 1.5em;
+  }
+
+  a {
+    color: $semiblack;
+  }
+}
+
+
+@media only screen
+and (min-device-width : $min)
+and (max-device-width : $max) {
+
+  #page {
+    margin: 30px auto;
+    max-width: 80%;
+
+    h1, h2, h3 {
+      text-align: left;
+    }
+
+    ul, li {
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+
+}
